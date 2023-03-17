@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'Neue Machina';
-    src: url('../font/neue-machina-regular.otf');
+    src: url("https://raw.githubusercontent.com/lucasimonmendes/portfoliojavascript/main/assets/font/neue-machina-regular.otf");
   }
 
 body{

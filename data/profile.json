@@ -50,7 +50,7 @@
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
+      "name": "Criação de uma Pokedex usando a PokeAPI",
       "url": "https://github.com/lucasimonmendes/pokedex",
       "github": true
     },
@@ -62,19 +62,19 @@
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "name": "Projeto de Bateria usando Javascript",
+      "url": "https://github.com/lucasimonmendes/drumkit-project",
+      "github": true
     },
     {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+      "name": "Relógio digital e analógico usando Javascript",
+      "url": "https://github.com/lucasimonmendes/clock-project",
+      "github": true
     },
     {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "Color Flipper com HTML e CSS",
+      "url": "https://github.com/lucasimonmendes/color-flipper",
+      "github": true
     }
   ]
 }

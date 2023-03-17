@@ -12,8 +12,8 @@
         "logo": "../data/imgs/nodejs.png"
       },
       {
-        "name": "VsCode",
-        "logo": "../data/imgs/vscode.png"
+        "name": "Javascript",
+        "logo": "../data/imgs/js.png"
       },
       {
         "name": "Git",

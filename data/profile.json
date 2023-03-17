@@ -9,27 +9,27 @@
     "hardSkills": [
       {
         "name": "HTML",
-        "logo": "../data/imgs/html.png"
+        "logo": "https://raw.githubusercontent.com/lucasimonmendes/portfoliojavascript/main/data/imgs/html.png"
       },
       {
         "name": "CSS",
-        "logo": "../data/imgs/css.png"
+        "logo": "https://raw.githubusercontent.com/lucasimonmendes/portfoliojavascript/main/data/imgs/css.png"
       },
       {
         "name": "Javascript",
-        "logo": "../data/imgs/js.png"
+        "logo": "https://raw.githubusercontent.com/lucasimonmendes/portfoliojavascript/main/data/imgs/js.png"
       },
       {
         "name": "React",
-        "logo": "../data/imgs/react.png"
+        "logo": "https://raw.githubusercontent.com/lucasimonmendes/portfoliojavascript/main/data/imgs/react.png"
       },
       {
         "name": "Nodejs",
-        "logo": "../data/imgs/nodejs.png"
+        "logo": "https://raw.githubusercontent.com/lucasimonmendes/portfoliojavascript/main/data/imgs/nodejs.png"
       },
       {
         "name": "Git",
-        "logo": "../data/imgs/git.png"
+        "logo": "https://raw.githubusercontent.com/lucasimonmendes/portfoliojavascript/main/data/imgs/git.png"
       }
       
       

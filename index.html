@@ -30,152 +30,87 @@
     <main class="main">
 
         <header class="header">
-            <img src="./assets/img/simon.png" alt="Foto de Lucas Simon" class="photo">
-            
-            <h1 class="title">Olá, <br> eu sou Lucas S Mendes</h1>
-            
+            <img src="assets/img/my-photo.png" alt="Foto de Perfil" class="photo" id="profile.photo">
+
+            <h1 class="title">
+                Olá, <br>eu sou <span id="profile.name">Carregando...</span>
+            </h1>
+
             <div class="information">
-                <p class="job">Junior developer</p>
-                <p class="location">Tietê - SP</p>
+                <p class="job" id="profile.job">Carregando...</p>
+                <p class="location" id="profile.location">Carregando...</p>
                 <p class="phone">
-                    <a href="tel:(15) 99153-3883">
-                        (15) 99153-3883
-                    </a>
+                    <a href="tel:(16) 9 9999-9999" id="profile.phone">Carregando...</a>
                 </p>
                 <p class="email">
-                   <a href="mailto:email@email.com">
-                       email@email.com
-                   </a>
+                    <a href="mailto:ex@mail.com" id="profile.email">carregando@mail.com</a>
                 </p>
             </div>
         </header>
     
         <section class="acordeon">
             <button class="trigger" type="button">
-                <h2>
-                    Skills 
-                </h2>   
+                <h2>Skills</h2>
             </button>
-    
+
             <div class="content">
                 <div class="skills">
-
-                    
                     <section class="tools">
                         <h3>Ferramentas:</h3>
-                        <ul>
-                            <li>
-                                <img src="/assets/img/icons/tools/nodejs.svg" alt="NodeJs">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/tools/react.svg" alt="React">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/tools/java.svg" alt="React">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/tools/git.svg" alt="React">
-                            </li>
+                        <ul id="profile.skills.hardSkills">
                         </ul>
                     </section>
 
                     <section class="personal">
                         <h3>Pessoal:</h3>
-                        <ul>
-                          <li>
-                              Empatia
-                          </li>
-                          <li>
-                              Liderança
-                          </li>
-                          <li>
-                              Trabalho em equipe
-                          </li>
-                          <li>
-                              Flexibilidade
-                          </li>
-                          <li>
-                              Organização
-                          </li>
-                          
+                        <ul id="profile.skills.softSkills">
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
                         </ul>
                     </section>
                 </div>
             </div>
         </section>
 
-    <section class="acordeon">
-        <button class="trigger" type="button">
-            <h2>
-                Idiomas 
-            </h2>   
-        </button>
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Idiomas</h2>
+            </button>
 
-        <div class="content">
-            <ul class="languages">
-                <li>Português</li>
-                <li>Inglês</li>
-                <li>Espanhol</li>
-                <li>Russo</li>
-            </ul>
-        </div>
-    </section>
+            <div class="content">
+                <ul class="languages" id="profile.languages">
+                    <li>Carregando...</li>
+                </ul>
+            </div>
+        </section>
 
-    <section class="acordeon">
-        <button class="trigger" type="button">
-            <h2>
-                Portfolio 
-            </h2> 
-        </button>
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Portfólio</h2>
+            </button>
 
-        <div class="content">
-            <ul class="portfolio">
-                <li>
-                    <h3 class="github">Criando um app de lembrete</h3>
-                    <a href="https://google.com.br" target="_blank">www.google.com.br</a>
-                </li>
-                <li>
-                    <h3 class="github">Criando um app de lembrete</h3>
-                    <a href="https://google.com.br" target="_blank">www.google.com.br</a>
-                </li>
-                <li>
-                    <h3 class="title">Criando um app de lembrete</h3>
-                    <a href="https://google.com.br" target="_blank">www.google.com.br</a>
-                </li>
-            </ul>
-        </div>
-    </section>
+            <div class="content">
+                <ul class="portfolio" id="profile.portfolio">
+                </ul>
+            </div>
+        </section>
 
-    <section class="acordeon">
-        <button class="trigger" type="button">
-            <h2>
-                Experiência Profissional 
-            </h2>  
-        </button>
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Experiência Profissional</h2>
+            </button>
 
-        <div class="content">
-            <ul class="experience">
-                <li>
-                    <h3 class="github">Criando um app de lembrete</h3>
-                    <span class="period">Jan 2020 - Current</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, ab. Quis eaque quas at illo!</p>
-                </li>
-                <li>
-                    <h3 class="github">Criando um app de lembrete</h3>
-                    <span class="period">Jan 2020 - Current</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, ab. Quis eaque quas at illo!</p>
-                </li>
-                <li>
-                    <h3 class="github">Criando um app de lembrete</h3>
-                    <span class="period">Jan 2020 - Current</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, ab. Quis eaque quas at illo!</p>
-                </li>
-            </ul>
-        </div>
-    </section>
+            <div class="content">
+                <ul class="experience" id="profile.professionalExperience">
+                </ul>
+            </div>
+        </section>
 </main>
 
 
 <script src="assets/js/acordeon.js"></script>
+<script src="assets/js/api.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
